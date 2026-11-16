@@ -1,5 +1,7 @@
 # Whittier Saw Mill Runaround
 
+Source: https://github.com/jamesplotts/wittiersawmillrunaround
+
 A small track mod for Railroader 0.6 (Maintenance of Way). It adds a runaround track beside the Whittier Saw Mill lead, so a log train can pull down the lead, run its engine around the cars and shove them into the mill tracks, without turning on the wye.
 
 - The upper switch is on the lead about 60 m above the first mill spur switch. The lower switch is below the last spur switch, about 20 m above the unloading spot at the end of the lead. The runaround is about 295 m long switch to switch, with roughly 230 m of clear track for cars.
