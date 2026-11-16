@@ -1,0 +1,108 @@
+{
+  "graph": {
+    "nodes": {
+      "jamesplotts/wsr/0": {
+        "position": [
+          12280.831,
+          560.96,
+          5141.758
+        ],
+        "rotation": [
+          0.0,
+          131.3917,
+          0.0
+        ]
+      },
+      "jamesplotts/wsr/1": {
+        "position": [
+          12304.632,
+          560.96,
+          5120.855
+        ],
+        "rotation": [
+          0.0,
+          131.2652,
+          0.0
+        ]
+      },
+      "jamesplotts/wsr/2": {
+        "position": [
+          12320.588,
+          560.96,
+          5103.39
+        ],
+        "rotation": [
+          0.0,
+          143.0726,
+          0.0
+        ]
+      },
+      "jamesplotts/wsr/3": {
+        "position": [
+          12340.719,
+          560.96,
+          5076.601
+        ],
+        "rotation": [
+          0.0,
+          143.0726,
+          0.0
+        ]
+      },
+      "jamesplotts/wsr/4": {
+        "position": [
+          12358.492,
+          560.96,
+          5052.953
+        ],
+        "rotation": [
+          0.0,
+          143.0726,
+          0.0
+        ]
+      },
+      "jamesplotts/wsr/5": {
+        "position": [
+          12394.628,
+          560.96,
+          5014.003
+        ],
+        "rotation": [
+          0.0,
+          131.39,
+          0.0
+        ]
+      }
+    },
+    "segments": {
+      "jamesplotts/wsr/s0": {
+        "a": "N5r2",
+        "b": "jamesplotts/wsr/0"
+      },
+      "jamesplotts/wsr/s1": {
+        "a": "jamesplotts/wsr/0",
+        "b": "jamesplotts/wsr/1"
+      },
+      "jamesplotts/wsr/s2": {
+        "a": "jamesplotts/wsr/1",
+        "b": "jamesplotts/wsr/2"
+      },
+      "jamesplotts/wsr/s3": {
+        "a": "jamesplotts/wsr/2",
+        "b": "jamesplotts/wsr/3"
+      },
+      "jamesplotts/wsr/s4": {
+        "a": "jamesplotts/wsr/3",
+        "b": "jamesplotts/wsr/4"
+      },
+      "jamesplotts/wsr/s5": {
+        "a": "jamesplotts/wsr/4",
+        "b": "jamesplotts/wsr/5"
+      },
+      "jamesplotts/wsr/s6": {
+        "a": "jamesplotts/wsr/5",
+        "b": "Ntky0n5l7"
+      }
+    }
+  }
+}
