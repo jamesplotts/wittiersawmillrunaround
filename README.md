@@ -1,6 +1,7 @@
 # Whittier Saw Mill Runaround
 
 Source: https://github.com/jamesplotts/wittiersawmillrunaround
+Download: https://www.nexusmods.com/railroader/mods/2322 (or the GitHub releases)
 
 A small track mod for Railroader 0.6 (Maintenance of Way). It adds a runaround track beside the Whittier Saw Mill lead, so a log train can pull down the lead, run its engine around the cars and shove them into the mill tracks, without turning on the wye.
 
