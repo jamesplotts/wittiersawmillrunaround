@@ -1,0 +1,168 @@
+{
+  "graph": {
+    "nodes": {
+      "jamesplotts/wsr/c0": {
+        "position": [
+          12235.163,
+          560.96,
+          5181.95
+        ],
+        "rotation": [
+          0.0,
+          131.3917,
+          0.0
+        ]
+      },
+      "jamesplotts/wsr/c1": {
+        "position": [
+          12255.497,
+          560.96,
+          5164.086
+        ],
+        "rotation": [
+          0.0,
+          131.3917,
+          0.0
+        ]
+      },
+      "jamesplotts/wsr/c2": {
+        "position": [
+          12280.872,
+          560.96,
+          5141.785
+        ],
+        "rotation": [
+          0.0,
+          131.2652,
+          0.0
+        ]
+      },
+      "jamesplotts/wsr/c3": {
+        "position": [
+          12299.507,
+          560.957,
+          5121.753
+        ],
+        "rotation": [
+          0.0,
+          144.5831,
+          0.0
+        ]
+      },
+      "jamesplotts/wsr/c4": {
+        "position": [
+          12314.691,
+          560.957,
+          5100.401
+        ],
+        "rotation": [
+          0.0,
+          144.5831,
+          0.0
+        ]
+      },
+      "jamesplotts/wsr/c5": {
+        "position": [
+          12333.961,
+          561.011,
+          5073.406
+        ],
+        "rotation": [
+          0.0,
+          144.4778,
+          0.0
+        ]
+      },
+      "jamesplotts/wsr/c6": {
+        "position": [
+          12354.513,
+          560.748,
+          5044.831
+        ],
+        "rotation": [
+          0.0,
+          144.277,
+          0.0
+        ]
+      },
+      "jamesplotts/wsr/cx": {
+        "position": [
+          12414.011,
+          560.532,
+          4974.701
+        ],
+        "rotation": [
+          -0.0092,
+          139.1692,
+          0.0
+        ]
+      }
+    },
+    "segments": {
+      "jamesplotts/wsr/cs0": {
+        "a": "N2qd",
+        "b": "jamesplotts/wsr/c0"
+      },
+      "jamesplotts/wsr/cs1": {
+        "a": "jamesplotts/wsr/c0",
+        "b": "jamesplotts/wsr/c1"
+      },
+      "jamesplotts/wsr/cs2": {
+        "a": "jamesplotts/wsr/c1",
+        "b": "jamesplotts/wsr/c2"
+      },
+      "jamesplotts/wsr/cs3": {
+        "a": "jamesplotts/wsr/c2",
+        "b": "jamesplotts/wsr/c3"
+      },
+      "jamesplotts/wsr/cs4": {
+        "a": "jamesplotts/wsr/c3",
+        "b": "jamesplotts/wsr/c4"
+      },
+      "jamesplotts/wsr/cs5": {
+        "a": "jamesplotts/wsr/c4",
+        "b": "jamesplotts/wsr/c5"
+      },
+      "jamesplotts/wsr/cs6": {
+        "a": "jamesplotts/wsr/c5",
+        "b": "jamesplotts/wsr/c6"
+      },
+      "jamesplotts/wsr/cs7": {
+        "a": "jamesplotts/wsr/c6",
+        "b": "jamesplotts/wsr/cx"
+      },
+      "S3dmxdn86": null,
+      "jamesplotts/wsr/cd0": {
+        "a": "N3dmxsgyp",
+        "b": "jamesplotts/wsr/cx",
+        "groupId": "",
+        "priority": -1,
+        "speedLimit": 30,
+        "flags": 16
+      },
+      "jamesplotts/wsr/cd1": {
+        "a": "jamesplotts/wsr/cx",
+        "b": "N3dmxg10k",
+        "groupId": "",
+        "priority": -1,
+        "speedLimit": 30,
+        "flags": 16
+      }
+    }
+  },
+  "objects": {
+    "wh-sawmill-road": {
+      "params": {
+        "points": {
+          "n": {
+            "position": [
+              118.241211,
+              -0.48781,
+              -109.503906
+            ]
+          }
+        }
+      }
+    }
+  }
+}

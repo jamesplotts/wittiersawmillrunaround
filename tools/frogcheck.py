@@ -3,9 +3,18 @@
 import sys,json,math
 sys.path.insert(0,'/home/jamesp/railroadermods/sylvatie/tools')
 from track import *
-mod=json.load(open('Data/Map.json'))['graph']
-for k,v in mod['nodes'].items(): N[k]=v
-for SW,LEG,NEW in [('N5r2','Ndk9','jamesplotts/wsr/0'),('Ntky0n5l7','Ntky0khft','jamesplotts/wsr/5')]:
+import os; sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
+# python3 tools/frogcheck.py          the plain layout (Data/Map.json)
+# python3 tools/frogcheck.py chilly   the layout for Chilly's sawmill (Data/MapChilly.json)
+if sys.argv[1:]==['chilly']:
+    from chillymap import load
+    g=load(True,['Data/MapChilly.json'])['graph']; N.clear(); N.update(g['nodes'])
+    CHECK=[('N2qd','N5r2','jamesplotts/wsr/c0'),('jamesplotts/wsr/cx','N3dmxsgyp','jamesplotts/wsr/c6')]
+else:
+    mod=json.load(open('Data/Map.json'))['graph']
+    for k,v in mod['nodes'].items(): N[k]=v
+    CHECK=[('N5r2','Ndk9','jamesplotts/wsr/0'),('Ntky0n5l7','Ntky0khft','jamesplotts/wsr/5')]
+for SW,LEG,NEW in CHECK:
  print('switch',SW)
  def curve(a,b,n=400):
      p=bez(N[a],N[b],n)

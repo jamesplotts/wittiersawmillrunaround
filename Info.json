@@ -1,10 +1,13 @@
 {
   "identifier": "jamesplotts/wittier-sawmill-runaround",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "name": "Whittier Saw Mill Runaround",
   "author": "jamesplotts",
-  "description": "Adds a runaround track beside the Whittier Saw Mill lead, with a switch above the mill's spur switches and one below them, so a log train can run its engine around the cars without using the wye.",
+  "description": "Adds a runaround track beside the Whittier Saw Mill lead, so a log train can run its engine around the cars without using the wye. With Chilly's East Whittier Sawmill installed, it uses a longer layout that runs around all of that mod's switches.",
   "dependencies": {
     "required": ["rr/game >=0.6.0"]
+  },
+  "load": {
+    "after": ["chilly/east-whitter-sawmill"]
   }
 }
